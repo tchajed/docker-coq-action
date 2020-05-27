@@ -20,6 +20,7 @@ echo "RUNNER_WORKSPACE=$RUNNER_WORKSPACE"
 # the GITHUB_WORKSPACE variable corresponds to the following host dir:
 # ${RUNNER_WORKSPACE}/${GITHUB_REPOSITORY#*/}, see also
 # https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables
+echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
 HOST_WORKSPACE_REPO="${RUNNER_WORKSPACE}/${GITHUB_REPOSITORY#*/}"
 echo "HOST_WORKSPACE_REPO=$HOST_WORKSPACE_REPO"
 echo "HOME=$HOME"
