@@ -10,7 +10,7 @@
                     "column": 3
                 },
                 {
-                    "regexp": "^(?:-\\s+)?(Warning|Error):\\s*(.*?)(?:\\s*\\[(.*)\\])?$",
+                    "regexp": "^(?:-?\\s+)?(Warning|Error):\\s*(.*?)(?:\\s*\\[(.*)\\])?$",
                     "severity": 1,
                     "message": 2,
                     "code": 3
