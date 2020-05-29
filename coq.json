@@ -4,7 +4,7 @@
             "owner": "coq-problem-matcher",
             "pattern": [
                 {
-                    "regexp": "^(?:-\\s+)?File \"([^ \"]+)\", line (\\d+), characters (\\d+-\\d+):",
+                    "regexp": "^(?:-\\s+)?File \"([^ \"]+)\", line (\\d+), characters (\\d+)-\\d+:",
                     "file": 1,
                     "line": 2,
                     "column": 3
